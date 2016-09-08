@@ -1,0 +1,42 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+}
+
+a{
+	 cursor:pointer;
+}
+.main{
+	width:910px; 
+}
+.fanhui{
+	margin-left: 800px;
+	margin-top: -20px;
+}
+.form-x{
+	margin:20px 200px;
+	padding-bottom: -10px;
+	font-family: 宋体;
+	color: #000000;
+	font-size: 14px;
+}
+.form-x input{
+	margin-top: -25px;
+	margin-left: 80px;
+	height: 35px;
+}
+.form-x span{
+	color: red;
+}
+.form-x .form-control{
+	width: 260px;
+}
+.form-x .baocun{
+    background-color: #3578A2;
+    width: 100px;
+    height: 40px;
+    position:absolute;
+    top: 500px;
+    left: 480px; 
+}

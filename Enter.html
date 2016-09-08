@@ -1,0 +1,22 @@
+<!doctype html><!-- 使浏览器以标准形式解析文档 -->
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>图书管理系统登录</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css" >
+        <link rel="stylesheet" href="css/denglu.css">
+        <script src="js/jquery-2.1.4.min.js"></script>
+        <script src="js/denglu_Yanzheng.js"></script>
+	</head>
+	<body>
+		<div class="right">
+			<form class="form-group" onsubmit="return validate_form(this)" method="post">
+			   <input type="text" class="form-control account" name="idnumber" placeholder="证件号" value="">
+			   <input type="password" class="form-control pass" name="password" placeholder="密码"value="">
+			   <br/><br/>
+			    <input type="button" class="btn btn-default denglu" value="登录"><br/>
+			    <a type="button" class="btn btn-default zhuce" href="Register.html">注册</a>
+			</form>
+        </div>
+	</body>
+</html>

@@ -1,0 +1,65 @@
+<!doctype html><!-- 使浏览器以标准形式解析文档 -->
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>借书查询</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css"><!--bootstrap框架引用-->
+        <link rel="stylesheet" href="Font-Awesome-3.2.1/css/font-awesome.min.css"><!--引用图标文件-->
+        <link rel="stylesheet" href="css/checkborrow.css">
+	</head>
+	<body>
+	 <div class="main">
+	 	<div class="main_1"><a href="firstpage.html">首页</a>>图书操作><sapn>借书查询</sapn>
+	 	<div class="fanhui"><a href="firstpage.html">返回首页</a></div>
+	 	</div>
+	 	<div class="main_2">
+		 	 <div class="main_2_1">
+               <form action="##" class="navbar-form navbar-left" rol="search">
+				  <div class="form-group">
+				    <input type="text" class="form-control" placeholder="请输入借阅证号、图书编号">
+				  </div>
+				  <select class="btn btn-default ">
+			 	   	  <option value="name" selected="">借阅证号</option>
+			 	   	  <option value="idnumber">图书编号</option>
+		 	      </select>
+				    <button type="submit" class="btn btn-default chazhao">查找</button>
+				</form>   
+		 	 </div><br/>
+		 	 <div class="main_2_2">
+		 	 	<ul class="lietable">
+				  <li>编号</li>
+				  <li>读者姓名</li>
+				  <li>借阅证号</li>
+				  <li>书名</li>
+				  <li>作者</li>
+				  <li>isbn</li>
+				  <li>借阅时间</li>
+				  <li>是否归还</li>
+				</ul>
+				<table>
+					<tr>
+						<td>1</td>
+						<td>大川</td>
+						<td>2013001</td>
+						<td>《边城》</td>
+						<td>沈从文</td>
+						<td>100023</td>
+						<td>2015/11/27</td>
+						<td>未还</td>
+					</tr>
+					<tr>
+						<td>2</td>
+						<td>青青</td>
+						<td>2013009</td>
+						<td>《前端编程》</td>
+						<td>带菲尔</td>
+						<td>100091</td>
+						<td>2015/11/21</td>
+						<td>已还</td>
+					</tr>
+				</table>
+		 	 </div>
+	 	</div>
+	 </div>
+	</body>
+</html>

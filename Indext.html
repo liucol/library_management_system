@@ -1,0 +1,95 @@
+<!doctype html><!-- 使浏览器以标准形式解析文档 -->
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>图书管理系统首页</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css"><!--bootstrap框架引用-->
+        <link rel="stylesheet" href="Font-Awesome-3.2.1/css/font-awesome.min.css"><!--引用图标文件-->
+        <link rel="stylesheet" href="css/mainpage.css">
+        <link rel="stylesheet" type="text/css" href="css/default.css">
+        <link href="css/app.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+	<div class="head">
+	    <div class="logol">
+	    	<span>图书管理系统</span>
+	    </div>
+	    <div class="tuichu_1">
+	    	<a href="Enter.html">登录</a>->首页
+	    </div>
+	    <div class="tuichu_2">
+	    	<a href="Enter.html">退出</a>
+	    </div>
+	</div> 
+	<div class="mainbody">  
+	<div id="tablecontainer"> 
+        <div id="contentLeft">
+            <ul id="leftNavigation">
+                <li>
+                    <a href="#"><i class="fa fa-coffee leftNavIcon"></i> 用户管理</a>
+                    <ul>
+                        <li>
+                            <a href="Addreader.html" target="rightiframe"><i class="fa fa-angle-right leftNavIcon"></i> 添加读者</a>
+                        </li>
+                        <li>
+                            <a href="Checkreders_masage.html"
+                            target="rightiframe"><i class="fa fa-angle-right leftNavIcon"></i> 查看读者信息</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-flask leftNavIcon"></i>图书类别管理 </a>
+                    <ul>
+                        <li>
+                            <a href="Addbooktype.html"target="rightiframe"><i class="fa fa-angle-right leftNavIcon"></i> 增加图书类别</a>
+                        </li>
+                        <li>
+                            <a href="Checkbooktype.html"target="rightiframe"><i class="fa fa-angle-right leftNavIcon"></i> 查看图书类别</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-truck leftNavIcon"></i>图书管理</a>
+                    <ul>
+                        <li>
+                            <a href="Addbook.html"target="rightiframe"><i class="fa fa-angle-right leftNavIcon"></i> 添加图书</a>
+                        </li>
+                        <li>
+                            <a href="Checkbook.html"target="rightiframe"><i class="fa fa-angle-right leftNavIcon"></i> 查看图书</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-truck leftNavIcon"></i>图书操作</a>
+                    <ul>
+                        <li>
+                            <a href="Checkborrow.html"target="rightiframe"><i class="fa fa-angle-right leftNavIcon"></i> 借书查询</a>
+                        </li>
+                        <li>
+                            <a href="Borrowbook.html"target="rightiframe"><i class="fa fa-angle-right leftNavIcon"></i> 借书</a>
+                        </li>
+                        <li>
+                            <a href="Return.html"target="rightiframe"><i class="fa fa-angle-right leftNavIcon"></i> 还书</a>
+                        </li>
+                    </ul>
+                </li>
+               
+            </ul>
+
+        </div>
+        <div >
+	       <iframe src="Firstpage.html" class=" right" scrolling="no"name="rightiframe">
+
+	       </iframe>
+	     </div>
+	   </div>
+	   </div>
+	</body>
+	    <script src="js/jquery-2.1.1.min.js" type="text/javascript"></script>
+        <script src="js/jquery.ssd-vertical-navigation.min.js"></script>
+        <script src="js/app.js"></script>
+        <script src="js/jquery.js"></script><!--加载js插件的文件-->
+        <script src="js/jquery-2.1.4.min.js"></script>
+		<script src="js/bootstrap.min.js"></script><!--加载js，如下拉列表需要-->
+		<script src="js/npm.js"></script>
+</html>

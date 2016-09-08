@@ -1,0 +1,64 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+}
+
+a{
+	 cursor:pointer;
+}
+.main{
+	width:910px; 
+}
+.fanhui {
+	margin-left: 800px;
+	margin-top: -20px;
+}
+.main_2{
+	width: 750px;
+	margin-top: 10px;
+}
+.main_2_1{
+    margin-top:10px;
+    margin-bottom: 10px;
+    margin-left: 200px;
+}
+.form-group .form-control{
+	width: 250px;
+}
+.chazhao{
+	background-color:#3578A2; 
+}
+.btn-default{
+	width: 120px;
+}
+.main_2_2 {
+	position: absolute;
+	width: 900px;
+	top: 90px;
+	left: 50px;
+}
+.main_2_2 .lietable li{
+	width: 87px;
+	height: 40px;
+	padding-top: 10px;
+	text-align: center;
+	font-size: 15px;
+	float: left;
+	list-style: none;
+	background-color: #3578A2;
+	border:1px solid;
+	border-bottom: none;
+}
+.main_2_2 td{
+	width: 86.9px;
+	height: 30px;
+	text-align: center;
+	border:1px solid;
+}
+.main_2_2 input{
+	width: 60px;
+}
+.delet{
+	background-color: #F92672;
+}
