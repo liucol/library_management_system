@@ -1,0 +1,59 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+}
+
+a{
+	 cursor:pointer;
+}
+.main{
+	width: 980px;
+	height: 635px; 
+	margin: 0px auto;
+	border:4px solid  #3578A2;
+}
+.head{
+	background-color: #3578A2;
+	width: 975px;
+	height: 90px;
+	margin:0px auto;
+}
+.logol{
+	font-size: 40px;
+	font-family: 宋体;
+	font-weight: bold;
+	color: #FFFFFF;
+	padding-left: 20px;
+	padding-top: 10px;
+}
+.tuichu_1{
+	margin-left: 10px;
+}
+.head a{
+	
+	color: #272822;
+}
+.tuichu_2{
+	float: right;
+	margin-top: -20px;
+	margin-right: 10px;
+}
+.form-group{
+	margin:100px 400px;
+	font-family: 宋体;
+	color: #000000;
+	font-size: 20px;
+}
+.form-group span{
+	color: red;
+}
+.form-group .form-control{
+	width: 200px;
+}
+.form-group .baocun{
+    background-color: #3578A2;
+    width: 100px;
+    height: 40px;
+    margin-left: 50px;
+}

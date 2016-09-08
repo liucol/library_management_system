@@ -1,0 +1,44 @@
+<!doctype html><!-- 使浏览器以标准形式解析文档 -->
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>图书管理系统注册</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css"><!--bootstrap框架引用-->
+        <link rel="stylesheet" href="Font-Awesome-3.2.1/css/font-awesome.min.css"><!--引用图标文件-->
+        <link rel="stylesheet" href="css/register.css">
+        <script>
+          function success(){
+			var register_success=confirm("恭喜您，注册成功！");
+			if(register_success=true){
+		        window.open('Indext.html','_self');
+			}
+		}
+        </script>
+	</head>
+	<body>
+	<div class="main">
+	<div class="head">
+	     <div class="logol">
+	    	<span>图书管理系统</span>
+	    </div>
+	    <div class="tuichu_1">
+	    	<a href="Enter.html">登录</a>->注册
+	    </div>
+	    <div class="tuichu_2">
+	    	<a href="Enter.html">退出</a>
+	    </div>
+	</div>
+	<div class="form-group">
+	    <span>*</span>证件号：<input type="text" class="form-control number" placeholder="证件号 12位数字"><br/>
+	    <span>*</span>姓名：<input type="password" class="form-control name" placeholder="姓名"><br/>
+        <span>*</span>密码：<input type="password" class="form-control pass" placeholder="密码 6~12位数字"><br/>
+        <input type="button" class="btn btn-default baocun" onclick="success()" value="保存"><br/>
+	</div>
+	</div>
+	</body>
+	    <script src="js/jquery.js"></script><!--加载js插件的文件-->
+        <script src="js/jquery-2.1.4.min.js"></script>
+		<script src="js/bootstrap.min.js"></script><!--加载js，如下拉列表需要-->
+		<script src="js/npm.js"></script>
+		<!--<script src="js/register_success.js"></script>-->
+</html>

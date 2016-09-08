@@ -1,0 +1,35 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+}
+
+a{
+	 cursor:pointer;
+}
+.logol h2{
+	margin-left: 20px;
+}
+.logol img{
+	float: right;
+	margin-right: 10px;
+	width: 45%;
+	height: 70%;
+}
+.p1{
+	text-indent: 2em;
+}
+.b{
+	width: 25px;
+	height: 20px;
+	margin-top: 20px;
+	margin-left: -5px;
+	background-color: #AFD3E9;
+}
+.mainbody h4{
+	margin-left: 30px;
+	margin-top: -20px;
+}
+.p2{
+	text-indent: 2em;
+}
